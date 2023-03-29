@@ -17,17 +17,17 @@ class Product {
         return `
         <div class="card m-4" style="width: 20rem;">
             <img src="${this.images[1]}" class="card-img-top">
-        <div class="card-body">
-            <h4 class="card-title">${this.title}</h4>
-            <p class="card-text">${this.description}</p>
-        </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">Price: ${this.price} $</li>
-            <li class="list-group-item">Stock: ${this.stock} items</li>
-            <li class="list-group-item">Rating: ${String(this.rating)}</li>
-            <li class="list-group-item">Brand: ${this.brand}</li>
-            <li class="list-group-item">Category: ${this.category}</li>
-        </ul>
+            <div class="card-body">
+                <h4 class="card-title">${this.title}</h4>
+                <p class="card-text">${this.description}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Price: ${this.price} $</li>
+                <li class="list-group-item">Stock: ${this.stock} items</li>
+                <li class="list-group-item">Rating: ${String(this.rating)}</li>
+                <li class="list-group-item">Brand: ${this.brand}</li>
+                <li class="list-group-item">Category: ${this.category}</li>
+            </ul>
         </div>
         `;
     }
